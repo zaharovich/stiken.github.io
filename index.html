@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>Sticken Сabinet</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/sticken-cabinet.webflow.css" rel="stylesheet" type="text/css">
+  
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+
+  <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+  <div class="sticken-cabinet">
+    <div class="main-menu">
+      <div class="header-menu">
+        <div class="logo-block-menu"><img src="images/Logotipe.svg" width="86" alt="" class="logo-in-menu"></div>
+        <div class="indicator-plugin-block">
+          <div class="plugin-no-active">
+            <div class="indicator-not-active"></div>
+            <div class="text-indicator">Plugin not active</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items">
+        <div class="item-main-menu menu_item_lenti">
+          <div class="icon-item w-embed"><svg width="14" height="13" viewbox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.61538 0C4.19055 0 3.84615 0.34237 3.84615 0.764706C3.84615 1.18704 4.19055 1.52941 4.61538 1.52941H9.38461C9.80945 1.52941 10.1538 1.18704 10.1538 0.764706C10.1538 0.34237 9.80945 0 9.38461 0H4.61538Z" fill="white"></path>
+            <path d="M3.46154 6.5C3.46154 5.8665 3.97813 5.35294 4.61538 5.35294H9.38461C10.0219 5.35294 10.5385 5.8665 10.5385 6.5H12.0769C12.0769 5.02183 10.8715 3.82353 9.38461 3.82353H4.61538C3.12846 3.82353 1.92308 5.02183 1.92308 6.5H3.46154Z" fill="white"></path>
+            <path d="M0.769231 13C1.19407 13 1.53846 12.6576 1.53846 12.2353V11.2794C1.53846 10.6459 2.05506 10.1324 2.69231 10.1324H11.3077C11.9449 10.1324 12.4615 10.6459 12.4615 11.2794V12.2353C12.4615 12.6576 12.8059 13 13.2308 13C13.6556 13 14 12.6576 14 12.2353V11.2794C14 9.80124 12.7946 8.60294 11.3077 8.60294H2.69231C1.20539 8.60294 0 9.80124 0 11.2794V12.2353C0 12.6576 0.344396 13 0.769231 13Z" fill="white"></path>
+          </svg></div>
+          <div class="item-name-text">Ленты</div>
+        </div>
+      </div>
+      <div class="menu-items" style="opacity: 0.4">
+        <div class="item-main-menu">
+          <div class="icon-item w-embed"><svg width="12" height="15" viewbox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.82353 5.57692C3.82353 5.15209 4.1659 4.80769 4.58824 4.80769H7.41176C7.8341 4.80769 8.17647 5.15209 8.17647 5.57692C8.17647 6.00176 7.8341 6.34615 7.41176 6.34615H4.58824C4.1659 6.34615 3.82353 6.00176 3.82353 5.57692Z" fill="white"></path>
+            <path d="M3.63235 8.65385C3.21002 8.65385 2.86765 8.99824 2.86765 9.42308C2.86765 9.84791 3.21002 10.1923 3.63235 10.1923H8.36765C8.78998 10.1923 9.13235 9.84791 9.13235 9.42308C9.13235 8.99824 8.78998 8.65385 8.36765 8.65385H3.63235Z" fill="white"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.69231C0 1.20539 1.1983 0 2.67647 0H9.32353C10.8017 0 12 1.20539 12 2.69231V12.3077C12 13.7946 10.8017 15 9.32353 15H2.67647C1.1983 15 0 13.7946 0 12.3077V2.69231ZM2.67647 1.53846C2.04297 1.53846 1.52941 2.05506 1.52941 2.69231V12.3077C1.52941 12.9449 2.04297 13.4615 2.67647 13.4615H9.32353C9.95703 13.4615 10.4706 12.9449 10.4706 12.3077V2.69231C10.4706 2.05506 9.95703 1.53846 9.32353 1.53846H2.67647Z" fill="white"></path>
+          </svg></div>
+          <div class="item-name-text">Плагин</div>
+        </div>
+      </div>
+      <div class="menu-items js-people">
+        <div class="item-main-menu">
+          <div class="icon-item w-embed"><svg width="14" height="15" viewbox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0C4.83959 0 3.08824 1.74793 3.08824 3.90411C3.08824 6.06029 4.83959 7.80822 7 7.80822C9.16041 7.80822 10.9118 6.06029 10.9118 3.90411C10.9118 1.74793 9.16041 0 7 0ZM4.73529 3.90411C4.73529 2.65579 5.74924 1.64384 7 1.64384C8.25076 1.64384 9.26471 2.65579 9.26471 3.90411C9.26471 5.15242 8.25076 6.16438 7 6.16438C5.74924 6.16438 4.73529 5.15242 4.73529 3.90411Z" fill="white"></path>
+            <path d="M1.64706 14.1781C1.64706 13.4036 2.1189 12.6018 3.08939 11.956C4.05412 11.3141 5.43432 10.8904 7 10.8904C8.56568 10.8904 9.94588 11.3141 10.9106 11.956C11.8811 12.6018 12.3529 13.4036 12.3529 14.1781C12.3529 14.632 12.7216 15 13.1765 15C13.6313 15 14 14.632 14 14.1781C14 12.6829 13.0892 11.4299 11.8242 10.5883C10.5535 9.7428 8.84549 9.24658 7 9.24658C5.15451 9.24658 3.44648 9.7428 2.17576 10.5883C0.910809 11.4299 0 12.6829 0 14.1781C0 14.632 0.368707 15 0.823529 15C1.27835 15 1.64706 14.632 1.64706 14.1781Z" fill="white"></path>
+          </svg></div>
+          <div class="item-name-text">Люди</div>
+        </div>
+      </div>
+      <div class="menu-items" style="opacity: 0.4">
+        <div class="item-main-menu">
+          <div class="icon-item w-embed"><svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.78846 4.61538C7.78846 4.19055 7.44407 3.84615 7.01923 3.84615C6.5944 3.84615 6.25 4.19055 6.25 4.61538V7.98077C6.25 8.4056 6.5944 8.75 7.01923 8.75H10.3846C10.8094 8.75 11.1538 8.4056 11.1538 7.98077C11.1538 7.55593 10.8094 7.21154 10.3846 7.21154H7.78846V4.61538Z" fill="white"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.6421 3.35786 15 7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35786 11.6421 0 7.5 0ZM1.53846 7.5C1.53846 4.20753 4.20753 1.53846 7.5 1.53846C10.7925 1.53846 13.4615 4.20753 13.4615 7.5C13.4615 10.7925 10.7925 13.4615 7.5 13.4615C4.20753 13.4615 1.53846 10.7925 1.53846 7.5Z" fill="white"></path>
+          </svg></div>
+          <div class="item-name-text">Действия</div>
+        </div>
+      </div>
+      <div class="menu-items" style="opacity: 0.4">
+        <div class="item-main-menu">
+          <div class="icon-item w-embed"><svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 2.88462C7.34783 2.88462 7.19716 2.89201 7.04835 2.90649C6.62552 2.94764 6.3161 3.32378 6.35725 3.74661C6.3984 4.16945 6.77454 4.47887 7.19737 4.43772C7.29673 4.42805 7.39767 4.42308 7.5 4.42308C7.60233 4.42308 7.70327 4.42805 7.80262 4.43772C8.22546 4.47887 8.6016 4.16945 8.64275 3.74661C8.6839 3.32377 8.37448 2.94764 7.95164 2.90649C7.80284 2.89201 7.65217 2.88462 7.5 2.88462Z" fill="white"></path>
+            <path d="M10.4283 3.93242C10.1001 3.66272 9.61536 3.71019 9.34566 4.03844C9.07596 4.36669 9.12343 4.85142 9.45168 5.12112C9.60761 5.24923 9.75076 5.39239 9.87888 5.54832C10.1486 5.87657 10.6333 5.92403 10.9616 5.65434C11.2898 5.38464 11.3373 4.89991 11.0676 4.57166C10.8759 4.33831 10.6617 4.12414 10.4283 3.93242Z" fill="white"></path>
+            <path d="M5.54832 5.12112C5.87657 4.85142 5.92403 4.36669 5.65434 4.03844C5.38464 3.71019 4.89991 3.66272 4.57166 3.93242C4.33831 4.12414 4.12414 4.33831 3.93242 4.57166C3.66272 4.89991 3.71019 5.38464 4.03844 5.65434C4.36669 5.92403 4.85142 5.87657 5.12112 5.54832C5.24923 5.39239 5.39238 5.24924 5.54832 5.12112Z" fill="white"></path>
+            <path d="M12.0935 7.04836C12.0524 6.62552 11.6762 6.3161 11.2534 6.35725C10.8306 6.3984 10.5211 6.77454 10.5623 7.19738C10.572 7.29673 10.5769 7.39767 10.5769 7.5C10.5769 7.60233 10.572 7.70327 10.5623 7.80262C10.5211 8.22546 10.8306 8.6016 11.2534 8.64275C11.6762 8.6839 12.0524 8.37448 12.0935 7.95164C12.108 7.80284 12.1154 7.65217 12.1154 7.5C12.1154 7.34783 12.108 7.19716 12.0935 7.04836Z" fill="white"></path>
+            <path d="M4.43771 7.19738C4.47887 6.77454 4.16945 6.3984 3.74661 6.35725C3.32377 6.3161 2.94764 6.62552 2.90649 7.04836C2.89201 7.19716 2.88461 7.34783 2.88461 7.5C2.88461 7.65217 2.89201 7.80284 2.90649 7.95164C2.94764 8.37448 3.32377 8.6839 3.74661 8.64275C4.16945 8.6016 4.47887 8.22546 4.43771 7.80262C4.42805 7.70327 4.42308 7.60233 4.42308 7.5C4.42308 7.39767 4.42804 7.29673 4.43771 7.19738Z" fill="white"></path>
+            <path d="M11.0676 10.4283C11.3373 10.1001 11.2898 9.61536 10.9616 9.34566C10.6333 9.07597 10.1486 9.12343 9.87888 9.45168C9.75076 9.60761 9.60761 9.75076 9.45168 9.87888C9.12343 10.1486 9.07597 10.6333 9.34566 10.9616C9.61536 11.2898 10.1001 11.3373 10.4283 11.0676C10.6617 10.8759 10.8759 10.6617 11.0676 10.4283Z" fill="white"></path>
+            <path d="M5.12112 9.45168C4.85142 9.12343 4.36669 9.07597 4.03844 9.34566C3.71019 9.61536 3.66272 10.1001 3.93242 10.4283C4.12414 10.6617 4.33831 10.8759 4.57166 11.0676C4.89991 11.3373 5.38464 11.2898 5.65434 10.9616C5.92403 10.6333 5.87657 10.1486 5.54832 9.87888C5.39238 9.75077 5.24923 9.60762 5.12112 9.45168Z" fill="white"></path>
+            <path d="M7.19738 10.5623C6.77454 10.5211 6.3984 10.8306 6.35725 11.2534C6.3161 11.6762 6.62552 12.0524 7.04836 12.0935C7.19716 12.108 7.34783 12.1154 7.5 12.1154C7.65217 12.1154 7.80284 12.108 7.95164 12.0935C8.37448 12.0524 8.6839 11.6762 8.64275 11.2534C8.6016 10.8306 8.22546 10.5211 7.80262 10.5623C7.70327 10.572 7.60233 10.5769 7.5 10.5769C7.39767 10.5769 7.29673 10.572 7.19738 10.5623Z" fill="white"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.6421 3.35786 15 7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35786 11.6421 0 7.5 0ZM1.53846 7.5C1.53846 4.20753 4.20753 1.53846 7.5 1.53846C10.7925 1.53846 13.4615 4.20753 13.4615 7.5C13.4615 10.7925 10.7925 13.4615 7.5 13.4615C4.20753 13.4615 1.53846 10.7925 1.53846 7.5Z" fill="white"></path>
+          </svg></div>
+          <div class="item-name-text">Счет</div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        <div class="header-two-block">
+          <div class="header-block-left">
+            <div class="magnifer-icon w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0085 1.9915C11.3532 -0.663833 7.04803 -0.663833 4.3927 1.9915C1.91642 4.46778 1.74944 8.37888 3.89177 11.0487L0.219444 14.721C-0.0731479 15.0136 -0.0731479 15.488 0.219444 15.7806C0.512036 16.0731 0.986422 16.0731 1.27901 15.7806L4.95134 12.1082C7.62112 14.2506 11.5322 14.0836 14.0085 11.6073C16.6638 8.95197 16.6638 4.64683 14.0085 1.9915ZM5.45227 3.05107C7.52242 0.98092 10.8788 0.98092 12.9489 3.05107C15.0191 5.12121 15.0191 8.47758 12.9489 10.5477C10.8788 12.6179 7.52242 12.6179 5.45227 10.5477C3.38212 8.47758 3.38212 5.12121 5.45227 3.05107Z" fill="#8E939B"></path>
+            </svg></div>
+            <div class="search-text">
+              <input type="text" class="form_search_input" placeholder="Найти запись">
+            </div>
+          </div>
+          <div class="header-block-right">
+            <div class="header-main-eyes-block">
+              <div class="header-eyes-block">
+                <div class="header-eyes-icon w-embed"><svg width="17" height="11" viewbox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.5 11C3.82378 11 0.316619 6.44828 0.219198 6.25862C-0.0730659 5.78449 -0.0730659 5.21551 0.219198 4.74138C0.41404 4.55172 3.9212 0 8.5 0C13.0788 0 16.6834 4.55172 16.7808 4.74138C17.0731 5.21551 17.0731 5.78449 16.7808 6.25862C16.6834 6.44828 13.0788 11 8.5 11ZM1.58309 5.49999C2.26504 6.25861 5.09026 9.48275 8.5 9.48275C11.9097 9.48275 14.8324 6.25861 15.4169 5.49999C14.735 4.74137 11.9097 1.51725 8.5 1.51725C5.09026 1.51725 2.16762 4.74137 1.58309 5.49999Z" fill="#8E939B"></path>
+                  <path d="M9.47419 7.39654C11.6264 7.39654 13.371 5.91059 13.371 4.07757C13.371 2.24456 11.6264 0.758609 9.47419 0.758609C7.32202 0.758609 5.57734 2.24456 5.57734 4.07757C5.57734 5.91059 7.32202 7.39654 9.47419 7.39654Z" fill="#8E939B"></path>
+                </svg></div>
+              </div>
+            </div>
+            <div class="header-main-bell-block">
+              <div class="header-bell-block">
+                <div class="header-bell-icon w-embed"><svg width="15" height="17" viewbox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.180672 13.3496L2.2439 10.2786V7.44724C2.2439 3.86336 4.05999 2.70953 6.46931 2.22416V1.04433C6.46935 0.46759 6.93078 0 7.50001 0C8.06924 0 8.53068 0.46759 8.53068 1.04433V2.2242C10.94 2.70962 12.7561 3.86344 12.7561 7.44728V10.2787L14.8193 13.3497C15.0366 13.6731 15.0596 14.0919 14.879 14.4378C14.6985 14.7837 14.3439 15 13.9577 15H1.04229C0.656079 15 0.301565 14.7836 0.120983 14.4378C-0.059641 14.0918 -0.0366155 13.6731 0.180672 13.3496ZM6.78529 3.79264C7.05635 3.73804 7.29984 3.66872 7.5 3.5C7.70017 3.66874 7.94359 3.73807 8.21466 3.79268C9.87773 4.12775 11.1561 5.62586 11.1561 7.44728V10.2787C11.1561 10.5965 11.2507 10.9071 11.428 11.1709L12.9255 13.4H2.0744L3.572 11.1709C3.74924 10.9071 3.84389 10.5965 3.84389 10.2786V7.44724C3.84389 5.62577 5.12226 4.12767 6.78529 3.79264Z" fill="#8E939B"></path>
+                  <path d="M7.5 17C8.88071 17 10 16.1046 10 15H5C5 16.1046 6.11929 17 7.5 17Z" fill="#8E939B"></path>
+                </svg></div>
+                <div class="bell-indicator"></div>
+              </div>
+            </div>
+            <div class="header-user-block">
+              <div class="header-user-avatar"><img src="images/imfage.jpg" alt=""></div>
+              <div class="header-user-name-text">Kirichok Oleg</div>
+              <div class="header-user-arrow w-embed"><svg width="8" height="5" viewbox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.39068 4.74365L0.254753 1.49822C0.091553 1.33283 0 1.10985 0 0.877534C0 0.645216 0.091553 0.422238 0.254753 0.256846C0.334048 0.175552 0.428871 0.110949 0.53353 0.0668374C0.63819 0.0227256 0.750554 0 0.864136 0C0.977717 0 1.0902 0.0227256 1.19486 0.0668374C1.29952 0.110949 1.39422 0.175552 1.47352 0.256846L4.00006 2.88209L6.5266 0.257848C6.6059 0.176554 6.7006 0.111947 6.80526 0.0678356C6.90992 0.0237237 7.02241 0.000998139 7.13599 0.000998139C7.24957 0.000998139 7.36193 0.0237237 7.46659 0.0678356C7.57125 0.111947 7.66607 0.176554 7.74537 0.257848C7.90851 0.423071 8 0.64588 8 0.878033C8 1.11019 7.90851 1.333 7.74537 1.49822L4.60944 4.74265C4.53022 4.82401 4.43553 4.88869 4.33091 4.93289C4.22629 4.97709 4.11389 4.99991 4.00031 5C3.88672 5.00009 3.77427 4.97746 3.66958 4.93343C3.56488 4.88941 3.47004 4.82488 3.39068 4.74365Z" fill="#8E939B"></path>
+              </svg></div>
+            </div>
+          </div>
+        </div>
+        <div class="separator-header-line"></div>
+      </div>
+      <div class="content-page-tape">
+        <div class="extra-menu-tape">
+          <div class="tape-headline">
+            <div class="headline-extra-menu">Лент:</div>
+          </div>
+          <div class="add-tape-button-block"><a href="#" class="add-tape-button w-inline-block"><img src="images/add-icon.svg" alt="" class="image-6"><div class="add-tape-button-text">Добавить ленту</div></a></div>
+          <div class="tape-items-block">
+            <div class="tape-items">
+
+             <!--  <div class="tape-item">
+                <div class="tape-item-block-left">
+                  <div class="tape-name-item-text-not-active">Скидки</div>
+                </div>
+                <div class="tape-item-block-right">
+                  <div class="tape-item-menu">
+                    <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.7">
+                        <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                        <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                        <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                      </g>
+                    </svg></div>
+                  </div>
+                </div>
+              </div> -->
+
+
+            </div>
+          </div>
+        </div>
+        <div class="people_section">
+          <div class="peoples_and_button">
+            <div class="add-button-block">
+              <div class="add-note-button">
+                <div class="add-note-button-icon w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 1C9 0.447715 8.55228 0 8 0C7.44772 0 7 0.447715 7 1V7L1 7C0.447716 7 0 7.44771 0 8C0 8.55228 0.447716 9 1 9L7 9V15C7 15.5523 7.44771 16 8 16C8.55228 16 9 15.5523 9 15V9H15C15.5523 9 16 8.55228 16 8C16 7.44772 15.5523 7 15 7L9 7V1Z" fill="white"></path>
+                </svg></div>
+              </div>
+            </div>
+            <div class="person">
+              <div class="top_elements">
+                <span class="status">Admin</span>
+                <div class="menu">
+                  <span></span>
+                  <ul>
+                    <li>Переименовать</li>
+                    <li>Дублировать</li>
+                    <li>Удалить</li>
+                  </ul>
+                </div>
+              </div>
+              <img src="images/image_1.jpg" alt="">
+              <p class="name">Name</p>
+              <p class="email">stikeninfo@gmail.com</p>
+            </div>
+            <div class="person">
+              <div class="top_elements">
+                <span class="status"></span>
+                <div class="menu">
+                  <span></span>
+                  <ul>
+                    <li>Переименовать</li>
+                    <li>Дублировать</li>
+                    <li>Удалить</li>
+                  </ul>
+                </div>
+              </div>
+              <img src="images/image_1.jpg" alt="">
+              <p class="name">Name</p>
+              <p class="email">stikeninfo@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="button-and-tape lenta-section">
+
+          <div class="add-button-block add-new-lent">
+            <div class="add-note-button">
+              <div class="add-note-button-icon w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1C9 0.447715 8.55228 0 8 0C7.44772 0 7 0.447715 7 1V7L1 7C0.447716 7 0 7.44771 0 8C0 8.55228 0.447716 9 1 9L7 9V15C7 15.5523 7.44771 16 8 16C8.55228 16 9 15.5523 9 15V9H15C15.5523 9 16 8.55228 16 8C16 7.44772 15.5523 7 15 7L9 7V1Z" fill="white"></path>
+              </svg></div>
+            </div>
+          </div>
+
+          <div class="tape">
+
+            <div class="template-note main-lent">
+              <div class="note-menu">
+                <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.7">
+                    <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                    <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                    <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                  </g>
+                </svg></div>
+              </div>
+              <div class="types-of-media-block all_tips">
+                <div class="image-types-of-media-block">
+                  <div class="image-preview-types-of-media-block type-view-block d_tip_1">
+                    <div class="preview-image">
+                      <div class="preview-text">A</div>
+                    </div>
+                  </div>
+                  <div class="name-types-of-media-text">Изображен.</div>
+                </div>
+                <div class="slider-types-of-media-block">
+                  <div class="slider-preview-types-of-media-block type-view-block d_tip_2">
+                    <div class="preview-slider">
+                      <div class="preview-slider-a">
+                        <div class="preview-text">A</div>
+                      </div>
+                      <div class="preview-slider-b">
+                        <div class="preview-text">B</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="name-types-of-media-text">Слайдер</div>
+                </div>
+                <div class="grid-types-of-media-block type-view-block">
+                  <div class="grid-preview-types-of-media-block type-view-block d_tip_3">
+                    <div class="preview-grid">
+                      <div class="preview-grid-mini-block">
+                        <div class="preview-grid-mini-block-small">
+                          <div class="preview-text">A</div>
+                        </div>
+                        <div class="preview-grid-mini-block-small">
+                          <div class="preview-text">B</div>
+                        </div>
+                      </div>
+                      <div class="preview-grid-mini-block">
+                        <div class="preview-grid-mini-block-small">
+                          <div class="preview-text">C</div>
+                        </div>
+                        <div class="preview-grid-mini-block-small">
+                          <div class="preview-text">D</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="name-types-of-media-text">Сетка</div>
+                </div>
+                <div class="swipe-types-of-media-block">
+                  <div class="swipe-preview-types-of-media-block type-view-block d_tip_4">
+                    <div class="preview-swipe-a">
+                      <div class="preview-text">A</div>
+                    </div>
+                    <div class="preview-swipe-b">
+                      <div class="preview-text">B</div>
+                    </div>
+                    <div class="preview-swipe-c">
+                      <div class="preview-text">C</div>
+                    </div>
+                  </div>
+                  <div class="name-types-of-media-text">Cвайп</div>
+                </div>
+              </div>
+
+              <span class="tip_1">
+                <div class="types-of-media-ratio-block ">
+                  <div class="image-types-of-media-ratio-block">
+                    <div class="image-preview-2-1-types-of-media-block tip_1_1">
+                      <div class="preview-image-ratio-2-1">
+                        <div class="preview-text">A</div>
+                      </div>
+                    </div>
+                    <div class="name-types-of-media-text">2:1</div>
+                  </div>
+                  <div class="image-types-of-media-ratio-block">
+                    <div class="image-preview-1-1-types-of-media-block tip_1_2">
+                      <div class="preview-image-ratio-2-1">
+                        <div class="preview-text">A</div>
+                      </div>
+                    </div>
+                    <div class="name-types-of-media-text">1:1</div>
+                  </div>
+                </div>
+              </span>
+
+              <div class="tip_1_1_mode">
+               <div class="ful_img">
+                 <img src="images/Union.svg" alt="">
+                 <p>Загрузить изображение</p>
+               </div>
+             </div>
+             <div class="tip_1_2_mode">
+               <div class="ful_img">
+                 <img src="images/Union.svg" alt="">
+                 <p>Загрузить изображение</p>
+               </div>
+             </div>
+
+
+
+             <div class="tip_2_mode">
+              <div class="slider">
+                <div>
+                 <div class="ful_img">
+                   <img src="images/Union.svg" alt="">
+                   <p>Загрузить изображение</p>
+                 </div>
+               </div>
+               <div>
+                 <div class="ful_img">
+                   <img src="images/Union.svg" alt="">
+                   <p>Загрузить изображение</p>
+                 </div>
+               </div>
+               <div>
+                 <div class="ful_img">
+                   <img src="images/Union.svg" alt="">
+                   <p>Загрузить изображение</p>
+                 </div>
+               </div>
+               <div>
+                 <div class="ful_img">
+                   <img src="images/Union.svg" alt="">
+                   <p>Загрузить изображение</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="tip_3_mode">
+            <!-- <input type="text" placeholder="" class="h1_input"> -->
+            <div class="note-add-text-block">
+
+
+              <div class="smile-icon-add-text-note">
+                <div class="smile-icon w-embed"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.75614 11.092C5.64187 10.7752 5.97998 12.1871 5.97998 12.1871C6.61781 14.2808 8.99994 14.1105 8.99994 14.1105C8.99994 14.1105 11.3744 14.2808 12.0199 12.1871C12.0199 12.1871 12.358 10.7752 11.2437 11.092C10.539 11.4327 9.77394 11.609 8.99994 11.609C8.22593 11.609 7.46092 11.4327 6.75614 11.092Z" fill="#8E939B"></path>
+                  <path d="M7.97721 5.93202C7.97721 6.49685 7.51931 6.95475 6.95448 6.95475C6.38965 6.95475 5.93176 6.49685 5.93176 5.93202C5.93176 5.36719 6.38965 4.90929 6.95448 4.90929C7.51931 4.90929 7.97721 5.36719 7.97721 5.93202Z" fill="#8E939B"></path>
+                  <path d="M11.0454 6.95475C11.6102 6.95475 12.0681 6.49685 12.0681 5.93202C12.0681 5.36719 11.6102 4.90929 11.0454 4.90929C10.4806 4.90929 10.0227 5.36719 10.0227 5.93202C10.0227 6.49685 10.4806 6.95475 11.0454 6.95475Z" fill="#8E939B"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM1.63636 9C1.63636 4.93318 4.93318 1.63636 9 1.63636C13.0668 1.63636 16.3636 4.93318 16.3636 9C16.3636 13.0668 13.0668 16.3636 9 16.3636C4.93318 16.3636 1.63636 13.0668 1.63636 9Z" fill="#8E939B"></path>
+                </svg></div>
+              </div>
+
+              <textarea  placeholder="Заголовок"  class="h1_input" maxlength="37"></textarea>
+
+            </div>
+            <div class="grid">
+              <div class="ful_img grid_block">
+               <img src="images/Union.svg" alt="">
+               <p>Загрузить изображение</p>
+               <div class="add_min">
+                <span id="remove">-</span>
+                <span>+</span>
+              </div>
+            </div>
+            <div class="ful_img grid_block">
+             <img src="images/Union.svg" alt="">
+             <p>Загрузить изображение</p>
+             <div class="add_min">
+               <span>-</span>
+               <span>+</span>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="tip_4_mode">
+        <!-- <input type="text" placeholder="" class="h1_input"> -->
+        <div class="note-add-text-block">
+
+
+          <div class="smile-icon-add-text-note">
+            <div class="smile-icon w-embed"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.75614 11.092C5.64187 10.7752 5.97998 12.1871 5.97998 12.1871C6.61781 14.2808 8.99994 14.1105 8.99994 14.1105C8.99994 14.1105 11.3744 14.2808 12.0199 12.1871C12.0199 12.1871 12.358 10.7752 11.2437 11.092C10.539 11.4327 9.77394 11.609 8.99994 11.609C8.22593 11.609 7.46092 11.4327 6.75614 11.092Z" fill="#8E939B"></path>
+              <path d="M7.97721 5.93202C7.97721 6.49685 7.51931 6.95475 6.95448 6.95475C6.38965 6.95475 5.93176 6.49685 5.93176 5.93202C5.93176 5.36719 6.38965 4.90929 6.95448 4.90929C7.51931 4.90929 7.97721 5.36719 7.97721 5.93202Z" fill="#8E939B"></path>
+              <path d="M11.0454 6.95475C11.6102 6.95475 12.0681 6.49685 12.0681 5.93202C12.0681 5.36719 11.6102 4.90929 11.0454 4.90929C10.4806 4.90929 10.0227 5.36719 10.0227 5.93202C10.0227 6.49685 10.4806 6.95475 11.0454 6.95475Z" fill="#8E939B"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM1.63636 9C1.63636 4.93318 4.93318 1.63636 9 1.63636C13.0668 1.63636 16.3636 4.93318 16.3636 9C16.3636 13.0668 13.0668 16.3636 9 16.3636C4.93318 16.3636 1.63636 13.0668 1.63636 9Z" fill="#8E939B"></path>
+            </svg></div>
+          </div>
+
+          <textarea  placeholder="Заголовок"  class="h1_input" maxlength="37"></textarea>
+
+        </div>
+
+        <div class="swipe">
+          <div class="ful_img" >
+           <img src="images/Union.svg" alt="">
+           <p>Загрузить<br> изображение</p>
+         </div>
+         <div class="ful_img">
+           <img src="images/Union.svg" alt="">
+           <p>Загрузить<br> изображение</p>
+         </div>
+         <div class="ful_img">
+           <img src="images/Union.svg" alt="">
+           <p>Загрузить<br> изображение</p>
+         </div>
+         <div class="ful_img" >
+           <img src="images/Union.svg" alt="" >
+           <p>Загрузить<br> изображение</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="note-add-text-block">
+
+
+      <div class="smile-icon-add-text-note">
+        <div class="smile-icon w-embed"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.75614 11.092C5.64187 10.7752 5.97998 12.1871 5.97998 12.1871C6.61781 14.2808 8.99994 14.1105 8.99994 14.1105C8.99994 14.1105 11.3744 14.2808 12.0199 12.1871C12.0199 12.1871 12.358 10.7752 11.2437 11.092C10.539 11.4327 9.77394 11.609 8.99994 11.609C8.22593 11.609 7.46092 11.4327 6.75614 11.092Z" fill="#8E939B"></path>
+          <path d="M7.97721 5.93202C7.97721 6.49685 7.51931 6.95475 6.95448 6.95475C6.38965 6.95475 5.93176 6.49685 5.93176 5.93202C5.93176 5.36719 6.38965 4.90929 6.95448 4.90929C7.51931 4.90929 7.97721 5.36719 7.97721 5.93202Z" fill="#8E939B"></path>
+          <path d="M11.0454 6.95475C11.6102 6.95475 12.0681 6.49685 12.0681 5.93202C12.0681 5.36719 11.6102 4.90929 11.0454 4.90929C10.4806 4.90929 10.0227 5.36719 10.0227 5.93202C10.0227 6.49685 10.4806 6.95475 11.0454 6.95475Z" fill="#8E939B"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM1.63636 9C1.63636 4.93318 4.93318 1.63636 9 1.63636C13.0668 1.63636 16.3636 4.93318 16.3636 9C16.3636 13.0668 13.0668 16.3636 9 16.3636C4.93318 16.3636 1.63636 13.0668 1.63636 9Z" fill="#8E939B"></path>
+        </svg></div>
+      </div>
+
+      <textarea  placeholder="Добавить описание" ></textarea>
+
+      <div class="note-add-text-line"></div>
+    </div>
+
+    <div class="add-text-and-smile-block ">
+      <div class="add-text-block first_block_input">
+        <input type="text" placeholder="Текст кнопки">
+        <input type="text" placeholder="Ссылка">
+
+        <a href="#" class="main-button-template-note w-button my_submit_button">Опубликовать</a>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="content-page-plugin">
+  <div class="activity-and-appearance-block">
+    <div class="appearance-block">
+      <div class="headline-appearance-block">Активность Sticken</div>
+      <div class="main-text-appearance-block">Установите активность плагина на вашем сайте</div>
+      <div class="switch-block">
+        <div class="switch-text-off">Off</div>
+        <div class="switch"></div>
+        <div class="switch-text-on">On</div>
+      </div>
+    </div>
+    <div class="appearance-block">
+      <div class="headline-appearance-block">Внешний вид</div>
+      <div class="main-text-appearance-block">Загрузите логотип и аватар вашего бренда</div>
+      <div class="logotype-and-avatar-block">
+        <div class="logotype-block">
+          <div class="logotype-brand"></div><a href="#" class="plugin-appearance-button w-button">Выбрать</a></div>
+          <div class="avatar-block">
+            <div class="avatar-brand"></div><a href="#" class="plugin-appearance-button w-button">Выбрать</a></div>
+          </div>
+          <div class="main-text-appearance-block">Выберите цвет вашего бренда</div>
+          <div class="color-picker"></div>
+          <div class="color-picker-setting-block">
+            <div class="hex-block">
+              <div class="hex-text">6E3ED4</div>
+            </div><a href="#" class="plugin-appearance-button w-button">Применить</a></div>
+          </div>
+        </div>
+        <div class="code-plugin-block">
+          <div class="headline-appearance-block">Внешний вид</div>
+          <div class="main-text-appearance-block">Чтобы пользоваться Sticken , вам необходимо установить следующий код на каждую страницу вашего сайта перед закрывающим тегом &lt;/body&gt;:</div>
+          <div class="code-block">
+            <div class="main-text-appearance-block">Lorem ipsum dolor sit amet, consectetur adipiscing <br><br>elit. Donec magna sem, tempus eget justo ut, bibendum dignissim ante. Morbi sit amet gravida turpis. Praesent quis dictum lorem. Proin luctus eros elementum sapien auctor eleifend. Mauris velit diam, pretium ut elit <br><br>eget, convallis placerat sapien. Vestibulum porta ullamcorper arcu, convallis malesuada mauris mattis eget. Etiam nec turpis viverra justo egestas laoreet quis eget massa. Proin ac dui ac lorem blandit elementum sed at metus. Sed ull<br><br>amcorper consectetur placerat. Suspendisse ut finibus nulla. Pellentesque cursus ut arcu sed lacinia. Sed auctor imperdiet auctor. Donec fermentum diam lobortis velit aliquam, ornare placerat nisl luctus. <br>Quisque luctus facilisis augue, tincidunt ornare metus ullamcorper in.Sed laoreet purus augue. Mauris sit amet mattis elit. Integer consequat urna vitae nisi porta rut<br><br>rum. Donec lobortis ornare mi sed iaculis. Donec quis dictum sapien, sit amet sagittis turpis. Duis viverra, fe<br>lis congue lobortis pulvinar, elit ante accumsan elit, et sollicitudin erat lacus in velit. Pellentesque varius lacus eu nibh lacinia, sit amet consectetur arcu elementum. Sed<br><br> sit amet est metus. Aenean finibus mi vitae dolor pellentesque elementum. Aliquam libero turpis, convallis in augue a, pretium blandit erat. Ut est quam, mattis ac fringilla varius, ullamcorper varius purus. Maecenas lac<br><br>inia posuere ante, ut pretium arcu aliquam in. Suspendisse cursus, justo sit amet auctor rhoncus, lacus sem sodales libero, volutpat commodo velit arcu ut urna. Ut a ven<br><br>enatis tellus, non accumsan ante. Donec accumsan rutrum neque quis pretium.Nam et condimentum nisi, at ultrices ipsum. Sed augue dolor, <br><br>consequat at porttitor sit amet, convallis et libero. Curabitur eu consectetur augue. Integer lacinia est vitae suscipit aliquet. Nullam sed nunc id risus venenatis consectetur ut nec neque. Cras vestibulum, sem id volutpat interdum, velit mauris vestibulum nisl, vitae egestas purus leo a nulla. Praesent accumsan porttitor bibendum. Pellentesque odio nisl, egestas in ligula ut, vulputate ullamcorper dolor. Phasellus hendrerit posuere gravida. Curabitur nisi sapien, scelerisque sit amet gravida at, faucibus nec neque. Aliquam blandit diam non erat egestas, sit amet laoreet arcu condimentum.Ut bibendum dapibus venenatis. Vivamus mi massa, posuere auctor arcu a, suscipit pretium ipsum. Nullam pulvinar ac justo eu malesuada. Phasellus commodo volutpat euismod. Vestibulum tincidunt eget ligula vel condimentum. Aliquam dapibus condimentum erat sit amet accumsan. Maecenas eleifend, arcu eu commodo volutpat, odio mi sollicitudin turpis, id egestas turpis velit a nunc. Sed porta sem eget suscipit lobortis. Sed felis turpis, luctus eget tempus id, vehicula et sem. Nunc porta vel orci ut efficitur. Nam consequat facilisis risus, nec porttitor orci venenatis vitae. Aliquam rhoncus rutrum tellus vel malesuada. Mauris blandit pretium nunc sed iaculis. Aliquam vel lectus ipsum.<br></div>
+          </div><a href="#" class="main-button-template-note w-button">Копировать код</a></div>
+          <div class="main-button-plugin"></div>
+        </div>
+        <div class="content-page-people">
+          <div class="add-button-people-block">
+            <div class="add-note-button">
+              <div class="add-note-button-icon w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1C9 0.447715 8.55228 0 8 0C7.44772 0 7 0.447715 7 1V7L1 7C0.447716 7 0 7.44771 0 8C0 8.55228 0.447716 9 1 9L7 9V15C7 15.5523 7.44771 16 8 16C8.55228 16 9 15.5523 9 15V9H15C15.5523 9 16 8.55228 16 8C16 7.44772 15.5523 7 15 7L9 7V1Z" fill="white"></path>
+              </svg></div>
+            </div>
+          </div>
+          <div class="people-block">
+            <div class="header-people-block">
+              <div class="people-text-admin-block">
+                <div class="people-text-admin">Admin</div>
+              </div>
+              <div class="tape-item-menu">
+                <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.7">
+                    <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                    <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                    <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                  </g>
+                </svg></div>
+              </div>
+            </div>
+            <div class="admin-avatar-block">
+              <div class="admin-avatar"></div>
+            </div>
+            <div class="people-name-block">
+              <div class="people-name-text">Jaroslav Kirichok</div>
+              <div class="people-email-text">kirichokjaroslav@gmail...</div>
+            </div>
+          </div>
+          <div class="people-block">
+            <div class="header-people-block">
+              <div class="people-text-admin-block"></div>
+              <div class="tape-item-menu">
+                <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.7">
+                    <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                    <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                    <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                  </g>
+                </svg></div>
+              </div>
+            </div>
+            <div class="admin-avatar-block">
+              <div class="admin-avatar-2"></div>
+            </div>
+            <div class="people-name-block">
+              <div class="people-name-text">Oleg Kirichok</div>
+              <div class="people-email-text">kirichokoleg@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="content-page-actions">
+          <div class="day-block">
+            <div class="day-date-block">
+              <div class="date-block">
+                <div class="day-date-text">JUL 21, 2018</div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong class="bold-text-7">Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="day-block">
+            <div class="day-date-block">
+              <div class="date-block">
+                <div class="day-date-text">JUL 21, 2018</div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="day-block">
+            <div class="day-date-block">
+              <div class="date-block">
+                <div class="day-date-text">JUL 21, 2018</div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+            <div class="actions-day-block">
+              <div class="separator-line-actions-block">
+                <div class="separator-line-actions"></div>
+              </div>
+              <div class="actions-block">
+                <div class="actions-time-block">
+                  <div class="actions-time-text">9:51pm</div>
+                </div>
+                <div class="avatar-actions-block">
+                  <div class="avatar-actions"></div>
+                </div>
+                <div class="acations-text"><strong>Jaroslav Kirichok</strong> добавил(-а) <span class="text-span-actions">новую запись</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-page-score">
+          <div class="heading-score">Мы рады, что вы выбираете Sticken</div>
+          <div class="score-limit-text">Срок окончания использования плагина <strong class="bold-text-3">27</strong> дней. <br>Воспользуйтесь любым тарифом для продления использования Sticken.</div>
+          <div class="tariffs-block">
+            <div class="rate">
+              <div class="headline-rate">Обычный</div>
+              <div class="tariff-terms-text"><strong class="bold-text-4">$</strong>8<strong class="bold-text-6">99 </strong>/30<strong class="bold-text-5">дн</strong></div>
+              <div class="separator-tarif"></div><a href="#" class="button-rate w-button">Пополнить</a></div>
+              <div class="rate"><img src="images/popular.svg" alt="" class="image-7">
+                <div class="headline-rate">Средний</div>
+                <div class="tariff-terms-text"><strong class="bold-text-4">$</strong>12<strong class="bold-text-6">99 </strong>/60<strong class="bold-text-5">дн</strong></div>
+                <div class="economy-rate-text">Вы экономите $1,9</div><a href="#" class="button-rate w-button">Пополнить</a></div>
+                <div class="rate">
+                  <div class="headline-rate">Продвинутый</div>
+                  <div class="tariff-terms-text"><strong class="bold-text-4">$</strong>18<strong class="bold-text-6">99 </strong>/60<strong class="bold-text-5">дн</strong></div>
+                  <div class="economy-rate-text">Вы экономите $2,9</div><a href="#" class="button-rate w-button">Пополнить</a></div>
+                </div>
+              </div>
+              <div class="content-page-search-results">
+                <div class="search-results-block">
+                  <div class="search-results-headline">Результат поиска</div>
+                  <div class="search-results-text">По вашему запросу найдено записей: <span class="text-span">12</span></div>
+                </div>
+                <div class="tape">
+                  <div class="note">
+                    <div class="note-menu">
+                      <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.7">
+                          <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                          <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                          <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                        </g>
+                      </svg></div>
+                    </div>
+                    <div class="note-image-block-1-05"><img src="images/image.jpg" alt=""></div>
+                    <div class="main-text-note">В жизни каждой из нас есть девушки, которые меняют мир 🎈. Восхищают, вдохновляют и показывают пример. Доказывают, что можно лучше, ярче, достойнее. 🎁💋<br><br>👕👗 Раздвигают представления о талантах и возможностях, о потенциале и лучших человеческих качествах. Подруг 😃 🤳. Partners in crime в любом деле – оголтелом шопинге, завоевании мира, обретении крыльев.</div>
+                    <div class="note-info-block">
+                      <div class="like-and-comment-block">
+                        <div class="like-block">
+                          <div class="like-icon-borser w-embed"><svg width="19" height="17" viewbox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5506 2.8092L8.44931 2.80915C8.59688 2.96557 8.73798 3.13597 8.87178 3.32016C9.01762 3.52093 9.25125 3.63981 9.49998 3.63982C9.74871 3.63983 9.98235 3.52096 10.1282 3.3202C10.262 3.13595 10.4031 2.9656 10.5506 2.8092Z" fill="#8E939B"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64989 0C4.08879 0 2.64169 0.62521 1.58969 1.76111C0.552926 2.88084 0 4.39029 0 5.9932C0 7.6845 0.643279 9.19796 1.90924 10.7187C3.00875 12.0394 4.56959 13.3636 6.29322 14.8258L6.33553 14.8617C6.93601 15.3712 7.61266 15.9454 8.31474 16.5564C8.643 16.8427 9.06406 17 9.5 17C9.93543 17 10.3565 16.8429 10.6845 16.5571C11.3815 15.9503 12.0538 15.3798 12.6514 14.8727L12.7084 14.8244C14.4313 13.3629 15.9916 12.0392 17.0909 10.7186C18.3569 9.1979 19 7.68444 19 5.99307C19 4.39028 18.4471 2.88087 17.4102 1.76114C16.3582 0.625257 14.9112 0 13.3501 0C12.1678 0 11.0793 0.375862 10.1343 1.10339C9.91147 1.27497 9.69984 1.46361 9.49999 1.66795C9.30011 1.46359 9.08851 1.27501 8.86565 1.10343C7.92068 0.375857 6.83218 0 5.64989 0ZM5.64989 1.54545C4.51603 1.54545 3.4841 1.9945 2.7296 2.80913C2.53706 3.01709 2.3655 3.24606 2.21697 3.49268C1.78838 4.20434 1.55102 5.06361 1.55102 5.9932C1.55102 7.24009 2.00762 8.41618 3.10304 9.73208C3.68017 10.4253 4.40759 11.1301 5.25908 11.8902C5.88875 12.4523 6.58627 13.0447 7.34104 13.685L7.34376 13.6873C7.943 14.1958 8.626 14.7753 9.33565 15.393C9.38067 15.4322 9.43912 15.4545 9.5 15.4545C9.56095 15.4545 9.61899 15.4326 9.66362 15.3936C10.3679 14.7805 11.0468 14.2045 11.6429 13.6986L11.6593 13.6847C13.4345 12.1787 14.8932 10.9379 15.8971 9.73195C16.9924 8.41625 17.449 7.24013 17.449 5.99307C17.449 4.74145 17.0186 3.61724 16.2703 2.8092C15.5158 1.99453 14.484 1.54545 13.3501 1.54545C12.518 1.54545 11.7617 1.80359 11.0826 2.32629C10.8975 2.46886 10.7198 2.62989 10.5506 2.8092L8.44931 2.80915C8.28018 2.62988 8.10248 2.4689 7.91733 2.32636C7.23843 1.80365 6.48204 1.54545 5.64989 1.54545Z" fill="#8E939B"></path>
+                          </svg></div>
+                          <div class="text-block-2">592</div>
+                        </div>
+                        <div class="comment-block">
+                          <div class="comment-icon-border w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 -2.1549e-07 13.0517 -2.1549e-07 8.40807C-2.1549e-07 3.76443 3.76848 0 8.41713 0ZM15.2792 8.40801C15.2795 4.62216 12.2071 1.55307 8.41713 1.55307C4.62715 1.55307 1.55475 4.62216 1.55475 8.40807C1.55475 12.194 4.62715 15.2631 8.41713 15.2631C9.54688 15.2631 10.6102 14.9898 11.5488 14.5073C11.7592 14.3992 12.006 14.369 12.2425 14.4312L15.1329 15.191L14.2784 12.6305C14.1886 12.3615 14.2225 12.0723 14.3599 11.8352C14.9439 10.8268 15.2792 9.65775 15.2792 8.40801Z" fill="#8E939B"></path>
+                          </svg></div>
+                          <div class="text-block-2">14</div>
+                        </div>
+                      </div>
+                      <div class="note-info-views-block">
+                        <div class="note-info-views-text">Переходы: <strong class="bold-text-2">67</strong></div>
+                      </div>
+                    </div>
+                    <div class="note-comments-link-block">
+                      <div class="note-comments-link-text">Смотреть комментарии</div>
+                    </div><a href="#" class="button-link-note w-button">Узнать больше</a></div>
+                    <div class="note">
+                      <div class="note-menu">
+                        <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g opacity="0.7">
+                            <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                            <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                            <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                          </g>
+                        </svg></div>
+                      </div>
+                      <div class="note-image-block-1-1"><img src="images/Group.jpg" alt=""></div>
+                      <div class="note-navigator-slider">
+                        <div class="navigator-circle-slider"></div>
+                        <div class="navigator-circle-slider"></div>
+                        <div class="navigator-circle-slider"></div>
+                        <div class="navigator-circle-slider"></div>
+                        <div class="navigator-circle-slider"></div>
+                        <div class="navigator-circle-slider"></div>
+                      </div>
+                      <div class="main-text-note">В жизни каждой из нас есть девушки, которые меняют мир 🎈. Восхищают, вдохновляют и показывают пример. Доказывают, что можно лучше, ярче, достойнее. 🎁💋<br><br>👕👗 Раздвигают представления о талантах и возможностях, о потенциале и лучших человеческих качествах. Подруг 😃 🤳. Partners in crime в любом деле – оголтелом шопинге, завоевании мира, обретении крыльев.</div>
+                      <div class="note-info-block">
+                        <div class="like-and-comment-block">
+                          <div class="like-block">
+                            <div class="like-icon-fill w-embed"><svg width="19" height="17" viewbox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64989 0C4.08879 0 2.64169 0.62521 1.58969 1.76111C0.552926 2.88084 0 4.39029 0 5.9932C0 7.6845 0.643279 9.19796 1.90924 10.7187C3.00875 12.0394 4.56959 13.3636 6.29322 14.8258L6.33553 14.8617C6.93602 15.3712 7.61266 15.9454 8.31474 16.5564C8.643 16.8427 9.06406 17 9.5 17C9.93543 17 10.3565 16.8429 10.6845 16.5571C11.3815 15.9503 12.0538 15.3798 12.6514 14.8727L12.7084 14.8244C14.4313 13.3629 15.9916 12.0392 17.0909 10.7186C18.3569 9.1979 19 7.68444 19 5.99307C19 4.39028 18.4471 2.88087 17.4102 1.76114C16.3582 0.625257 14.9112 0 13.3501 0C12.1678 0 11.0793 0.375862 10.1343 1.10339C9.91147 1.27497 9.69984 1.46361 9.49999 1.66795C9.30011 1.46359 9.08851 1.27501 8.86565 1.10343C7.92068 0.375857 6.83218 0 5.64989 0Z" fill="#E83B53"></path>
+                            </svg></div>
+                            <div class="text-block-2">592</div>
+                          </div>
+                          <div class="comment-block">
+                            <div class="comment-icon-fill w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="#219653"></path>
+                            </svg></div>
+                            <div class="text-block-2">14</div>
+                          </div>
+                        </div>
+                        <div class="note-info-views-block">
+                          <div class="note-info-views-text">Переходы: <strong class="bold-text-2">67</strong></div>
+                        </div>
+                      </div>
+                      <div class="note-comments-link-block">
+                        <div class="note-comments-link-text">Смотреть комментарии</div>
+                      </div><a href="#" class="button-link-note w-button">Узнать больше</a></div>
+                      <div class="note">
+                        <div class="note-menu">
+                          <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.7">
+                              <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                              <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                              <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                            </g>
+                          </svg></div>
+                        </div>
+                        <div class="headline-note">Summer Sale-20%</div>
+                        <div class="note-grid-block">
+                          <div class="note-grid-image-block">
+                            <div class="note-grid-image"><img src="images/Group_1.jpg" alt=""></div>
+                            <div class="note-grid-image"><img src="images/Group-2.jpg" alt=""></div>
+                          </div>
+                        </div>
+                        <div class="note-grid-block">
+                          <div class="note-grid-image-block">
+                            <div class="note-grid-image"><img src="images/Group-3.jpg" alt=""></div>
+                            <div class="note-grid-image"><img src="images/Group-4.jpg" alt=""></div>
+                          </div>
+                        </div>
+                        <div class="main-text-note">В жизни каждой из нас есть девушки, которые меняют мир 🎈. Восхищают, вдохновляют и показывают пример. Доказывают, что можно лучше, ярче, достойнее. 🎁💋<br><br>👕👗 Раздвигают представления о талантах и возможностях, о потенциале и лучших человеческих качествах. Подруг 😃 🤳. Partners in crime в любом деле – оголтелом шопинге, завоевании мира, обретении крыльев.</div>
+                        <div class="note-info-block">
+                          <div class="like-and-comment-block">
+                            <div class="like-block">
+                              <div class="like-icon-fill w-embed"><svg width="19" height="17" viewbox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64989 0C4.08879 0 2.64169 0.62521 1.58969 1.76111C0.552926 2.88084 0 4.39029 0 5.9932C0 7.6845 0.643279 9.19796 1.90924 10.7187C3.00875 12.0394 4.56959 13.3636 6.29322 14.8258L6.33553 14.8617C6.93602 15.3712 7.61266 15.9454 8.31474 16.5564C8.643 16.8427 9.06406 17 9.5 17C9.93543 17 10.3565 16.8429 10.6845 16.5571C11.3815 15.9503 12.0538 15.3798 12.6514 14.8727L12.7084 14.8244C14.4313 13.3629 15.9916 12.0392 17.0909 10.7186C18.3569 9.1979 19 7.68444 19 5.99307C19 4.39028 18.4471 2.88087 17.4102 1.76114C16.3582 0.625257 14.9112 0 13.3501 0C12.1678 0 11.0793 0.375862 10.1343 1.10339C9.91147 1.27497 9.69984 1.46361 9.49999 1.66795C9.30011 1.46359 9.08851 1.27501 8.86565 1.10343C7.92068 0.375857 6.83218 0 5.64989 0Z" fill="#E83B53"></path>
+                              </svg></div>
+                              <div class="text-block-2">592</div>
+                            </div>
+                            <div class="comment-block">
+                              <div class="comment-icon-fill w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="#219653"></path>
+                              </svg></div>
+                              <div class="text-block-2">34</div>
+                            </div>
+                          </div>
+                          <div class="note-info-views-block">
+                            <div class="note-info-views-text">Переходы: <strong class="bold-text-2">67</strong></div>
+                          </div>
+                        </div>
+                        <div class="note-comments-link-block">
+                          <div class="note-comments-link-text">Смотреть комментарии</div>
+                        </div><a href="#" class="button-link-note w-button">Узнать больше</a></div>
+                        <div class="note">
+                          <div class="note-menu">
+                            <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g opacity="0.7">
+                                <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                                <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                                <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                              </g>
+                            </svg></div>
+                          </div>
+                          <div class="headline-note">Последняя возможность<br>купить</div>
+                          <div class="swipe-note-block">
+                            <div class="swipe-note-image-block">
+                              <div class="swipe-image"><img src="images/1.jpg" alt=""></div>
+                              <div class="swipe-image"><img src="images/2.jpg" alt=""></div>
+                              <div class="swipe-image"><img src="images/3.jpg" alt=""></div>
+                              <div class="swipe-image"></div>
+                              <div class="swipe-image"></div>
+                              <div class="swipe-image"></div>
+                            </div>
+                          </div>
+                          <div class="main-text-note">В жизни каждой из нас есть девушки, которые меняют мир 🎈. Восхищают, вдохновляют и показывают пример. Доказывают, что можно лучше, ярче, достойнее. 🎁💋<br><br>👕👗 Раздвигают представления о талантах и возможностях, о потенциале и лучших человеческих качествах. Подруг 😃 🤳. Partners in crime в любом деле – оголтелом шопинге, завоевании мира, обретении крыльев.</div>
+                          <div class="note-info-block">
+                            <div class="like-and-comment-block">
+                              <div class="like-block">
+                                <div class="like-icon-fill w-embed"><svg width="19" height="17" viewbox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64989 0C4.08879 0 2.64169 0.62521 1.58969 1.76111C0.552926 2.88084 0 4.39029 0 5.9932C0 7.6845 0.643279 9.19796 1.90924 10.7187C3.00875 12.0394 4.56959 13.3636 6.29322 14.8258L6.33553 14.8617C6.93602 15.3712 7.61266 15.9454 8.31474 16.5564C8.643 16.8427 9.06406 17 9.5 17C9.93543 17 10.3565 16.8429 10.6845 16.5571C11.3815 15.9503 12.0538 15.3798 12.6514 14.8727L12.7084 14.8244C14.4313 13.3629 15.9916 12.0392 17.0909 10.7186C18.3569 9.1979 19 7.68444 19 5.99307C19 4.39028 18.4471 2.88087 17.4102 1.76114C16.3582 0.625257 14.9112 0 13.3501 0C12.1678 0 11.0793 0.375862 10.1343 1.10339C9.91147 1.27497 9.69984 1.46361 9.49999 1.66795C9.30011 1.46359 9.08851 1.27501 8.86565 1.10343C7.92068 0.375857 6.83218 0 5.64989 0Z" fill="#E83B53"></path>
+                                </svg></div>
+                                <div class="text-block-2">592</div>
+                              </div>
+                              <div class="comment-block">
+                                <div class="comment-icon-fill w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="#219653"></path>
+                                </svg></div>
+                                <div class="text-block-2">14</div>
+                              </div>
+                            </div>
+                            <div class="note-info-views-block">
+                              <div class="note-info-views-text">Переходы: <strong class="bold-text-2">67</strong></div>
+                            </div>
+                          </div>
+                          <div class="note-comments-link-block">
+                            <div class="note-comments-link-text">Смотреть комментарии</div>
+                          </div><a href="#" class="button-link-note w-button">Узнать больше</a></div>
+                        </div>
+                      </div>
+                      <div class="content-page-note">
+                        <div class="search-results-block">
+                          <div class="search-results-headline">Запись</div>
+                        </div>
+                        <div class="tape">
+                          <div class="note">
+                            <div class="note-menu">
+                              <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.7">
+                                  <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                                  <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                                  <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                                </g>
+                              </svg></div>
+                            </div>
+                            <div class="headline-note">Последняя возможность<br>купить</div>
+                            <div class="swipe-note-block">
+                              <div class="swipe-note-image-block">
+                                <div class="swipe-image"><img src="images/1.jpg" alt=""></div>
+                                <div class="swipe-image"><img src="images/2.jpg" alt=""></div>
+                                <div class="swipe-image"><img src="images/3.jpg" alt=""></div>
+                                <div class="swipe-image"></div>
+                                <div class="swipe-image"></div>
+                                <div class="swipe-image"></div>
+                              </div>
+                            </div>
+                            <div class="main-text-note">В жизни каждой из нас есть девушки, которые меняют мир 🎈. Восхищают, вдохновляют и показывают пример. Доказывают, что можно лучше, ярче, достойнее. 🎁💋<br><br>👕👗 Раздвигают представления о талантах и возможностях, о потенциале и лучших человеческих качествах. Подруг 😃 🤳. Partners in crime в любом деле – оголтелом шопинге, завоевании мира, обретении крыльев.</div>
+                            <div class="note-info-block">
+                              <div class="like-and-comment-block">
+                                <div class="like-block">
+                                  <div class="like-icon-fill w-embed"><svg width="19" height="17" viewbox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.64989 0C4.08879 0 2.64169 0.62521 1.58969 1.76111C0.552926 2.88084 0 4.39029 0 5.9932C0 7.6845 0.643279 9.19796 1.90924 10.7187C3.00875 12.0394 4.56959 13.3636 6.29322 14.8258L6.33553 14.8617C6.93602 15.3712 7.61266 15.9454 8.31474 16.5564C8.643 16.8427 9.06406 17 9.5 17C9.93543 17 10.3565 16.8429 10.6845 16.5571C11.3815 15.9503 12.0538 15.3798 12.6514 14.8727L12.7084 14.8244C14.4313 13.3629 15.9916 12.0392 17.0909 10.7186C18.3569 9.1979 19 7.68444 19 5.99307C19 4.39028 18.4471 2.88087 17.4102 1.76114C16.3582 0.625257 14.9112 0 13.3501 0C12.1678 0 11.0793 0.375862 10.1343 1.10339C9.91147 1.27497 9.69984 1.46361 9.49999 1.66795C9.30011 1.46359 9.08851 1.27501 8.86565 1.10343C7.92068 0.375857 6.83218 0 5.64989 0Z" fill="#E83B53"></path>
+                                  </svg></div>
+                                  <div class="text-block-2">592</div>
+                                </div>
+                                <div class="comment-block">
+                                  <div class="comment-icon-fill w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="#219653"></path>
+                                  </svg></div>
+                                  <div class="text-block-2">14</div>
+                                </div>
+                              </div>
+                              <div class="note-info-views-block">
+                                <div class="note-info-views-text">Переходы: <strong class="bold-text-2">67</strong></div>
+                              </div>
+                            </div>
+                            <div class="note-comments-link-block">
+                              <div class="note-comments-link-text">Смотреть комментарии</div>
+                            </div><a href="#" class="button-link-note w-button">Узнать больше</a></div>
+                          </div>
+                        </div>
+                        <div class="drop-down-menus">
+                          <div class="notification-main-block">
+                            <div class="triangle-figure-notification w-embed"><svg width="18" height="13" viewbox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M7.46402 0.841809C8.26358 -0.116953 9.73642 -0.116955 10.536 0.841808L17.5222 9.21907C18.6084 10.5216 17.6822 12.5 15.9862 12.5H2.01378C0.317761 12.5 -0.608437 10.5216 0.477801 9.21907L7.46402 0.841809Z" fill="white"></path>
+                            </svg></div>
+                            <div class="notification-block">
+                              <div class="notification-avatar-and-text-block">
+                                <div class="notification-avatar"></div>
+                                <div class="notification-name-and-text-block">
+                                  <div class="notification-name-text">Sticken</div>
+                                  <div class="notification-date-text">17 апреля</div>
+                                  <div class="notification-text">Oleg, срок использования Sticken подходит к концу. Пожалуйста, пополните <span class="text-span-2">Ваш счет</span> для дальнейшего использвания плагина.</div>
+                                </div>
+                              </div>
+                              <div class="notification-separator"></div>
+                            </div>
+                            <div class="notification-block">
+                              <div class="notification-avatar-and-text-and-multimedia-block">
+                                <div class="notification-avatar"><img src="images/image-girl.jpg" alt=""></div>
+                                <div class="notification-name-and-text-block">
+                                  <div class="notification-name-text">Sticken</div>
+                                  <div class="notification-date-text">17 апреля</div>
+                                  <div class="notification-text">Прокомментировал(-а) <span class="text-span-3">Вашу запись</span></div>
+                                </div>
+                                <div class="note-preview-block">
+                                  <div class="notification-note-preview-1-1"><img src="images/Group.jpg" alt=""></div>
+                                </div>
+                              </div>
+                              <div class="notification-separator"></div>
+                            </div>
+                            <div class="notification-block">
+                              <div class="notification-avatar-and-text-and-multimedia-block">
+                                <div class="notification-avatar-like">
+                                  <div class="notification-avatar-like-icon w-embed"><svg width="18" height="17" viewbox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5721 2.24305C15.6403 1.23335 14.3617 0.677246 12.9717 0.677246C11.9327 0.677246 10.9811 1.00545 10.1434 1.65265C9.7207 1.97934 9.33769 2.37903 9 2.84553C8.66245 2.37916 8.2793 1.97934 7.85646 1.65265C7.01889 1.00545 6.06734 0.677246 5.02831 0.677246C3.63826 0.677246 2.35959 1.23335 1.42781 2.24305C0.507156 3.24096 0 4.60425 0 6.08197C0 7.60291 0.567307 8.99515 1.78528 10.4635C2.87485 11.777 4.44081 13.1104 6.25424 14.6544C6.87346 15.1817 7.57535 15.7794 8.30415 16.416C8.49669 16.5845 8.74374 16.6772 9 16.6772C9.25612 16.6772 9.50331 16.5845 9.69557 16.4163C10.4244 15.7795 11.1267 15.1816 11.7462 14.654C13.5593 13.1103 15.1253 11.777 16.2149 10.4634C17.4328 8.99515 18 7.60291 18 6.08184C18 4.60425 17.4928 3.24096 16.5721 2.24305Z" fill="white"></path>
+                                  </svg></div>
+                                </div>
+                                <div class="notification-name-and-text-block">
+                                  <div class="notification-text"><span class="text-span-5">29</span> пользователям нравится <br><span class="text-span-6">Ваша запись</span></div>
+                                </div>
+                                <div class="note-preview-block">
+                                  <div class="notification-note-preview-2-1"><img src="images/image.jpg" alt=""></div>
+                                </div>
+                              </div>
+                              <div class="notification-separator"></div>
+                            </div>
+                            <div class="notification-block">
+                              <div class="notification-avatar-and-text-and-multimedia-block">
+                                <div class="notification-avatar-comment">
+                                  <div class="notification-avatar-comment-icon w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="white"></path>
+                                  </svg></div>
+                                </div>
+                                <div class="notification-name-and-text-block">
+                                  <div class="notification-text"><span class="text-span-5">12</span> пользователей оставили комментарий к <span class="text-span-7">Вашей записи</span></div>
+                                </div>
+                                <div class="note-preview-block">
+                                  <div class="notification-note-preview-2-1"><img src="images/image.jpg" alt=""></div>
+                                </div>
+                              </div>
+                              <div class="notification-separator"></div>
+                            </div>
+                            <div class="notification-block">
+                              <div class="notification-avatar-and-text-and-multimedia-block">
+                                <div class="notification-avatar-comment">
+                                  <div class="notification-avatar-comment-icon w-embed"><svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41713 0C13.0657 0 16.8343 3.76439 16.8339 8.40807C16.8339 9.84503 16.4714 11.1985 15.8344 12.3823L16.9487 15.7212C17.1929 16.453 16.5263 17.1632 15.7796 16.9669L12.0582 15.9887C10.9559 16.5185 9.72091 16.8161 8.41713 16.8161C3.76848 16.8161 0 13.0517 0 8.40807C0 3.76443 3.76848 0 8.41713 0Z" fill="white"></path>
+                                  </svg></div>
+                                </div>
+                                <div class="notification-name-and-text-block">
+                                  <div class="notification-text"><span class="text-span-5">12</span> пользователей оставили комментарий к <span class="text-span-7">Вашей записи</span></div>
+                                </div>
+                                <div class="note-preview-block">
+                                  <div class="notification-note-preview-swipe"><img src="images/2.jpg" alt=""></div>
+                                </div>
+                              </div>
+                              <div class="notification-separator"></div>
+                            </div>
+                          </div>
+                          <div class="drop-down-menu">
+                            <div class="drop-down-menu-item">
+                              <div class="drop-down-menu-text">Редактировать</div>
+                            </div>
+                            <div class="drop-down-menu-item">
+                              <div class="drop-down-menu-text">Дублировать</div>
+                            </div>
+                            <div class="drop-down-menu-item">
+                              <div class="drop-down-menu-text">Удалить</div>
+                            </div>
+                          </div>
+                          <div class="drop-down-menu-user">
+                            <div class="drop-down-menu-item">
+                              <div class="drop-down-menu-text">Настройки профиля</div>
+                            </div>
+                            <div class="drop-down-menu-item">
+                              <div class="drop-down-menu-text">Выйти</div>
+                            </div>
+                            <div class="triangle-figure-menu-user w-embed"><svg width="18" height="13" viewbox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M7.46402 0.841809C8.26358 -0.116953 9.73642 -0.116955 10.536 0.841808L17.5222 9.21907C18.6084 10.5216 17.6822 12.5 15.9862 12.5H2.01378C0.317761 12.5 -0.608437 10.5216 0.477801 9.21907L7.46402 0.841809Z" fill="white"></path>
+                            </svg></div>
+                          </div>
+                        </div>
+                        <div class="content-page-user-setting">
+                          <div class="search-results-block">
+                            <div class="search-results-headline">Настройки профиля</div>
+                          </div>
+                          <div class="user-setting-block">
+                            <div class="user-avatar-setting-block"><img src="images/imfage.jpg" alt="">
+                              <div class="add-user-avatar-block">
+                                <div class="user-avatar-setting-text">Загрузить</div>
+                              </div>
+                            </div>
+                            <div class="text-field-user-setting">
+                              <div class="name-text-field-user-setting-block">
+                                <div class="name-field-user-setting-text">ИМЯ</div>
+                              </div>
+                              <div class="text-field-user-setting-block">
+                                <div class="text-field-user-setting-text">Oleg</div>
+                              </div>
+                              <div class="line-text-field-user-setting"></div>
+                            </div>
+                            <div class="text-field-user-setting">
+                              <div class="name-text-field-user-setting-block">
+                                <div class="name-field-user-setting-text">Email</div>
+                              </div>
+                              <div class="text-field-user-setting-block">
+                                <div class="text-field-user-setting-text">kirichokoleg@gmail.com</div>
+                              </div>
+                              <div class="line-text-field-user-setting"></div>
+                            </div>
+                            <div class="text-field-user-setting">
+                              <div class="name-text-field-user-setting-block">
+                                <div class="name-field-user-setting-text">пароль</div>
+                              </div>
+                              <div class="text-field-user-setting-block">
+                                <div class="text-field-user-setting-text">12345678</div>
+                                <div class="text-field-user-setting-text-change-password">Сменить</div>
+                              </div>
+                              <div class="line-text-field-user-setting"></div>
+                            </div>
+                            <div class="text-field-user-setting">
+                              <div class="name-text-field-user-setting-block">
+                                <div class="name-field-user-setting-text">адрес сайта</div>
+                              </div>
+                              <div class="text-field-user-setting-block">
+                                <div class="text-field-user-setting-text">Oleg</div>
+                              </div>
+                              <div class="line-text-field-user-setting"></div>
+                            </div>
+                            <div class="text-field-user-setting">
+                              <div class="name-text-field-user-setting-block">
+                                <div class="name-field-user-setting-text">имя бренда</div>
+                              </div>
+                              <div class="text-field-user-setting-block">
+                                <div class="text-field-user-setting-text">Kasta</div>
+                              </div>
+                              <div class="line-text-field-user-setting"></div>
+                            </div><a href="#" class="button-save-user-setting w-button">Cохранить</a></div>
+                          </div>
+                        </div>
+                        <div class="main-comments-block">
+                          <div class="body-comments-block">
+                            <div class="header-comments-block">
+                              <div class="close-block-comments">
+                                <div class="close-comments-icon w-embed"><svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M1.7951 0.307991C1.38445 -0.102664 0.718647 -0.102664 0.307992 0.307991C-0.102663 0.718646 -0.102663 1.38445 0.307992 1.7951L5.51289 7L0.307991 12.2049C-0.102664 12.6155 -0.102664 13.2814 0.307991 13.692C0.718646 14.1027 1.38445 14.1027 1.7951 13.692L7 8.48711L12.2049 13.692C12.6155 14.1027 13.2814 14.1027 13.692 13.692C14.1027 13.2814 14.1027 12.6156 13.692 12.2049L8.48711 7L13.692 1.7951C14.1027 1.38445 14.1027 0.718647 13.692 0.307991C13.2814 -0.102664 12.6156 -0.102663 12.2049 0.307991L7 5.51289L1.7951 0.307991Z" fill="white"></path>
+                                </svg></div>
+                              </div>
+                              <div class="text-header-comments">Комментарии</div>
+                            </div>
+                            <div class="message-block">
+                              <div class="comment-user">
+                                <div class="avatar-comment-block">
+                                  <div class="avatar-comment"></div>
+                                </div>
+                                <div class="name-and-message-comment-block">
+                                  <div class="name-and-date-comment-block">
+                                    <div class="name-user-comment-block">
+                                      <div class="name-user-comment-text">Ярослав Киричок</div>
+                                    </div>
+                                    <div class="date-user-comment-block">
+                                      <div class="date-user-comment-text">17 апр</div>
+                                    </div>
+                                  </div>
+                                  <div class="message-and-menu-comment-block">
+                                    <div class="comment-user-block">
+                                      <div class="main-text-comment">😃😃😃 Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получает при простой </div>
+                                    </div>
+                                    <div class="user-comment-menu-icon">
+                                      <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.7">
+                                          <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                                          <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                                          <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                                        </g>
+                                      </svg></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="comment-my">
+                                <div class="name-and-message-my-comment-block">
+                                  <div class="name-and-date-comment-block">
+                                    <div class="date-user-comment-block">
+                                      <div class="date-user-comment-text">17 июн</div>
+                                    </div>
+                                    <div class="name-user-comment-block">
+                                      <div class="name-user-comment-text">Kasta</div>
+                                    </div>
+                                  </div>
+                                  <div class="message-and-menu-my-comment-block">
+                                    <div class="my-comment-menu-icon">
+                                      <div class="menu-icon w-embed"><svg width="3" height="13" viewbox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.7">
+                                          <path d="M3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5Z" fill="#8E939B"></path>
+                                          <path d="M3 6.5C3 7.32843 2.32843 8 1.5 8C0.671573 8 0 7.32843 0 6.5C0 5.67157 0.671573 5 1.5 5C2.32843 5 3 5.67157 3 6.5Z" fill="#8E939B"></path>
+                                          <path d="M3 11.5C3 12.3284 2.32843 13 1.5 13C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10C2.32843 10 3 10.6716 3 11.5Z" fill="#8E939B"></path>
+                                        </g>
+                                      </svg></div>
+                                    </div>
+                                    <div class="comment-my-block">
+                                      <div class="main-text-comment">😃😃😃 Давно выяснено что наши скидки самые </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="my-avatar-comment-block">
+                                  <div class="my-avatar-comment"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="footer-comments-block">
+                              <div class="separator-line-footer-comments-block"></div>
+                              <div class="edit-my-comment">
+                                <div class="edit-my-comment-text">Редактирование комментария</div>
+                                <div class="close-edit-my-comment-block">
+                                  <div class="close-edit-my-comment-icon w-embed"><svg width="10" height="10" viewbox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.28838 0.221052C0.993647 -0.0736839 0.515787 -0.0736839 0.221051 0.221052C-0.0736838 0.515787 -0.0736838 0.993648 0.221051 1.28838L3.93267 5L0.221051 8.71162C-0.0736838 9.00635 -0.0736838 9.48421 0.221051 9.77895C0.515787 10.0737 0.993647 10.0737 1.28838 9.77895L5 6.06733L8.71162 9.77895C9.00635 10.0737 9.48421 10.0737 9.77895 9.77895C10.0737 9.48421 10.0737 9.00635 9.77895 8.71162L6.06733 5L9.77895 1.28838C10.0737 0.993648 10.0737 0.515787 9.77895 0.221052C9.48421 -0.0736839 9.00635 -0.0736839 8.71162 0.221052L5 3.93267L1.28838 0.221052Z" fill="#8E939B"></path>
+                                  </svg></div>
+                                </div>
+                              </div>
+                              <div class="answer-to-user">
+                                <div class="answer-to-user-text">Ответ пользователю <strong class="bold-text">Ярослав Киричок</strong></div>
+                                <div class="close-answer-to-user-block">
+                                  <div class="close-answer-to-user-icon w-embed"><svg width="10" height="10" viewbox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.28838 0.221052C0.993647 -0.0736839 0.515787 -0.0736839 0.221051 0.221052C-0.0736838 0.515787 -0.0736838 0.993648 0.221051 1.28838L3.93267 5L0.221051 8.71162C-0.0736838 9.00635 -0.0736838 9.48421 0.221051 9.77895C0.515787 10.0737 0.993647 10.0737 1.28838 9.77895L5 6.06733L8.71162 9.77895C9.00635 10.0737 9.48421 10.0737 9.77895 9.77895C10.0737 9.48421 10.0737 9.00635 9.77895 8.71162L6.06733 5L9.77895 1.28838C10.0737 0.993648 10.0737 0.515787 9.77895 0.221052C9.48421 -0.0736839 9.00635 -0.0736839 8.71162 0.221052L5 3.93267L1.28838 0.221052Z" fill="#8E939B"></path>
+                                  </svg></div>
+                                </div>
+                              </div>
+                              <div class="comment-write-block">
+                                <div class="entry-field">
+                                  <div class="main-text">Проводим кажд|</div>
+                                </div>
+                                <div class="smile-icon">
+                                  <div class="smile-icon-comment w-embed"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.75614 11.092C5.64187 10.7752 5.97998 12.1871 5.97998 12.1871C6.61781 14.2808 8.99994 14.1105 8.99994 14.1105C8.99994 14.1105 11.3744 14.2808 12.0199 12.1871C12.0199 12.1871 12.358 10.7752 11.2437 11.092C10.539 11.4327 9.77394 11.609 8.99994 11.609C8.22593 11.609 7.46092 11.4327 6.75614 11.092Z" fill="#8E939B"></path>
+                                    <path d="M7.97721 5.93202C7.97721 6.49685 7.51931 6.95475 6.95448 6.95475C6.38965 6.95475 5.93176 6.49685 5.93176 5.93202C5.93176 5.36719 6.38965 4.90929 6.95448 4.90929C7.51931 4.90929 7.97721 5.36719 7.97721 5.93202Z" fill="#8E939B"></path>
+                                    <path d="M11.0454 6.95475C11.6102 6.95475 12.0681 6.49685 12.0681 5.93202C12.0681 5.36719 11.6102 4.90929 11.0454 4.90929C10.4806 4.90929 10.0227 5.36719 10.0227 5.93202C10.0227 6.49685 10.4806 6.95475 11.0454 6.95475Z" fill="#8E939B"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM1.63636 9C1.63636 4.93318 4.93318 1.63636 9 1.63636C13.0668 1.63636 16.3636 4.93318 16.3636 9C16.3636 13.0668 13.0668 16.3636 9 16.3636C4.93318 16.3636 1.63636 13.0668 1.63636 9Z" fill="#8E939B"></path>
+                                  </svg></div>
+                                </div>
+                                <div class="send-message-icon">
+                                  <div class="send-icon w-embed"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.3494 0.241052L16.5135 6.53569L16.525 6.54129C17.4235 6.98827 18 7.88546 18 8.99909C18 10.1127 17.4236 11.0099 16.525 11.4569L16.5135 11.4625L3.34966 17.757C2.49542 18.241 1.49688 17.9287 0.919593 17.4593C0.767672 17.3357 0.655657 17.1982 0.573387 17.081C0.255684 16.6283 0 16.0905 0 15.4094C0 14.9742 0.132646 14.4254 0.419094 13.9787L2.23814 10.5603C2.73124 9.5729 2.73123 8.42526 2.23814 7.43791L0.4198 4.02086C0.144386 3.59692 0 3.14536 0 2.58883C0 1.89049 0.273014 1.16602 0.751003 0.690473C1.06883 0.374275 1.4915 0.146961 1.93558 0.0509203C2.36961 -0.0429451 2.88407 -0.0219639 3.3494 0.241052ZM2.28318 1.64177C2.13919 1.67291 1.99936 1.75084 1.90809 1.84165C1.77244 1.9766 1.63636 2.26967 1.63636 2.58883C1.63636 2.83009 1.68796 2.97901 1.80576 3.15481C1.82105 3.17764 1.83518 3.20122 1.84809 3.22547L3.68901 6.68497L3.69772 6.70181C3.92889 7.16178 4.08673 7.64631 4.17126 8.13982H8.69318C9.14505 8.13982 9.51136 8.50426 9.51136 8.95383C9.51136 9.40339 9.14505 9.76783 8.69318 9.76783H4.18592C4.10574 10.2926 3.94301 10.8083 3.69772 11.2964L3.68901 11.3132L1.84809 14.7727C1.83518 14.797 1.82105 14.8206 1.80576 14.8434C1.70049 15.0005 1.63636 15.2465 1.63636 15.4094C1.63636 15.6482 1.71512 15.8641 1.91509 16.149C1.94057 16.1853 1.95512 16.1987 1.95512 16.1987C2.05706 16.2816 2.19025 16.342 2.316 16.3627C2.43983 16.383 2.5115 16.3593 2.54496 16.3394C2.56658 16.3265 2.58878 16.3146 2.61149 16.3037L15.7981 9.99832C16.1243 9.83403 16.3636 9.51091 16.3636 8.99909C16.3636 8.48728 16.1243 8.16418 15.7981 7.99988L2.61149 1.69449C2.58878 1.68362 2.56658 1.67172 2.54496 1.65882C2.50865 1.63714 2.42554 1.61098 2.28318 1.64177Z" fill="#8E939B"></path></svg></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="main-image-designer-block">
+                            <div class="image-designer-block">
+                              <div class="header-image-designer">
+                                <div class="headline-image-designer-block">Конструктор изображений</div>
+                              </div>
+                              <div class="workspace-image-designer-block">
+                                <div class="loading-image-block">
+                                  <div class="loading-image-text">Загрузка изображения</div>
+                                  <div class="progress-loading-image-block">
+                                    <div class="progress-line"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="footer-image-designer"><a href="#" class="button-cancel-image w-button">Отмена</a><a href="#" class="button-save-image w-button">Cохранить</a></div>
+                            </div>
+                          </div>
+                          <div class="background-darkening"></div>
+                        </div>
+                        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+                        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+                        <script src="js/app.js" type="text/javascript"></script>
+                        <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+                      </body>
+                      </html>
